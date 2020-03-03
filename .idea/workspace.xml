@@ -1,84 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99d69811-b191-46a6-8220-438350129dc8" name="Default Changelist" comment="MDD done">
-      <change afterPath="$PROJECT_DIR$/GRL_practice.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MCD/.idea/MCD.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MCD/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MCD/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MCD/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MCD/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MCD/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MCD/MCD.sh.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MCD/basenet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MCD/mcd_options.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MCD/mcd_train.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MCD/pytorch_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MCD/taskcv_loader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MCD/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDD/mdd_visualize.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MMT/.idea/MMT.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MMT/MMT.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MMT/mmt/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MMT/mmt/models/resnet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MMT/mmt/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MMT/mmt/utils/data/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MMT/mmt/utils/data/base_dataset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MMT/mmt/utils/data/preprocessor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MMT/mmt/utils/data/sampler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MMT/mmt/utils/data/transforms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MMT/mmt/utils/logging.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MMT/mmt/utils/lr_scheduler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MMT/mmt/utils/meters.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MMT/mmt/utils/osutils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MMT/mmt/utils/rerank.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MMT/mmt/utils/serialization.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MMT/mmt_options.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MMT/mmt_train.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SWD/SWD.sh.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SWD/basenet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SWD/solver.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SWD/swd_options.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SWD/taskcv_loader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SWD/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TransNorm/TRANSNORM.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TransNorm/loss.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TransNorm/lr_schedule.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TransNorm/network.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TransNorm/pre_process.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TransNorm/trans_norm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TransNorm/transnorm_options.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TransNorm/transnorm_resnet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/UDA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/UDA.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="99d69811-b191-46a6-8220-438350129dc8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CDAN/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CDAN/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CDAN/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CDAN/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CDAN/train_image.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CDAN_complete/.idea/CDAN.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CDAN/.idea/CDAN.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CDAN_complete/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CDAN/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CDAN_complete/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CDAN/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CDAN_complete/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CDAN/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CDAN_complete/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CDAN/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CDAN_complete/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CDAN_complete/CDAN.sh" beforeDir="false" afterPath="$PROJECT_DIR$/CDAN/CDAN.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CDAN_complete/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/TransNorm/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CDAN_complete/cdan_options.py" beforeDir="false" afterPath="$PROJECT_DIR$/CDAN/cdan_options.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CDAN_complete/loss.py" beforeDir="false" afterPath="$PROJECT_DIR$/CDAN/loss.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CDAN_complete/lr_schedule.py" beforeDir="false" afterPath="$PROJECT_DIR$/CDAN/lr_schedule.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CDAN_complete/network.py" beforeDir="false" afterPath="$PROJECT_DIR$/CDAN/network.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CDAN_complete/output_1/iter_00000_model.pth.tar" beforeDir="false" afterPath="$PROJECT_DIR$/CDAN/output_1/iter_00000_model.pth.tar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CDAN_complete/output_1/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CDAN/output_1/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CDAN_complete/pre_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/CDAN/pre_process.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CDAN_complete/san/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CDAN/san/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDD_complete/MDD.sh" beforeDir="false" afterPath="$PROJECT_DIR$/MDD/MDD.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDD_complete/mdd_options.py" beforeDir="false" afterPath="$PROJECT_DIR$/MDD/mdd_options.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDD_complete/mdd_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/MDD/mdd_train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDD_complete/mdd_visualize.py" beforeDir="false" afterPath="$PROJECT_DIR$/MCD/solver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDD_complete/model/MDD.py" beforeDir="false" afterPath="$PROJECT_DIR$/MDD/model/MDD.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDD_complete/model/backbone.py" beforeDir="false" afterPath="$PROJECT_DIR$/MDD/model/backbone.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDD_complete/preprocess/data_provider.py" beforeDir="false" afterPath="$PROJECT_DIR$/MDD/preprocess/data_provider.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDD_complete/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/MDD/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +39,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -242,19 +166,27 @@
       <option name="project" value="LOCAL" />
       <updated>1583241969629</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="3월 3일 commit">
+      <created>1583242828784</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1583242828784</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="MDD done" />
     <MESSAGE value="CDAN done" />
-    <option name="LAST_COMMIT_MESSAGE" value="CDAN done" />
+    <MESSAGE value="3월 3일 commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="3월 3일 commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1075" y="117" key="CommitChangelistDialog2" timestamp="1583241968068">
+    <state x="1020" y="117" key="CommitChangelistDialog2" timestamp="1583242827320">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1075" y="117" key="CommitChangelistDialog2/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1583241968068" />
+    <state x="1020" y="117" key="CommitChangelistDialog2/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1583242827320" />
     <state x="592" y="219" key="FileChooserDialogImpl" timestamp="1581832161467">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -284,15 +216,15 @@
     </state>
     <state width="744" height="203" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581153359970" />
     <state width="1899" height="280" key="GridCell.Tab.0.right/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1581220697578" />
-    <state x="926" y="164" key="SettingsEditor" timestamp="1583242754453">
+    <state x="926" y="164" key="SettingsEditor" timestamp="1583243139892">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="559" y="114" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1579825255180" />
-    <state x="926" y="164" key="SettingsEditor/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1583242754453" />
-    <state x="1032" y="255" key="Vcs.Push.Dialog.v2" timestamp="1583241994850">
+    <state x="926" y="164" key="SettingsEditor/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1583243139892" />
+    <state x="1032" y="255" key="Vcs.Push.Dialog.v2" timestamp="1583242847388">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="255" key="Vcs.Push.Dialog.v2/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1583241994850" />
+    <state x="1032" y="255" key="Vcs.Push.Dialog.v2/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1583242847388" />
     <state x="1245" y="187" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1581213623201">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
