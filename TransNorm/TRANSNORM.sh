@@ -1,0 +1,21 @@
+#!/bin/bash
+python C:\\Users\\9live\\hm_code\\platform_pytorch\\transnorm_train.py \
+    --s_dset_path C:\\Users\\9live\\hm_code\\open_data\\office31\\amazon\\images \
+    --t_dset_path C:\\Users\\9live\\hm_code\\open_data\\office31\\dslr\\images \
+    --method CDAN+E \
+    --gpu_id 0 \
+    --net ResNet50 \
+    --dset office \
+    --test_interval 5 \
+    --snapshot_interval 5000 \
+    --output_dir output_1 \
+    --lr 0.0003 \
+    --random False \
+    --num_iterations 100004 \
+    --output_for_test True \
+    --class_num 31 \
+    --trade_off 0.1 \
+    --source_batchsize 32 \
+    --target_batchsize 32 \
+    --test_batchsize 4 \
+    --type selection

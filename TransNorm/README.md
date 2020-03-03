@@ -1,4 +1,4 @@
-CDAN paper code
+Transnorm paper code
 
 
 **office31 data**
@@ -15,5 +15,3 @@ args.trade_off = 0.1
 
 args.lr=0.001
 args.trade_off = 1.0
-
-

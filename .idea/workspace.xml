@@ -1,16 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99d69811-b191-46a6-8220-438350129dc8" name="Default Changelist" comment="" />
+    <list default="true" id="99d69811-b191-46a6-8220-438350129dc8" name="Default Changelist" comment="MDD done">
+      <change afterPath="$PROJECT_DIR$/GRL_practice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MCD/.idea/MCD.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MCD/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MCD/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MCD/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MCD/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MCD/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MCD/MCD.sh.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MCD/basenet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MCD/mcd_options.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MCD/mcd_train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MCD/pytorch_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MCD/taskcv_loader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MCD/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDD/mdd_visualize.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MMT/.idea/MMT.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MMT/MMT.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MMT/mmt/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MMT/mmt/models/resnet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MMT/mmt/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MMT/mmt/utils/data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MMT/mmt/utils/data/base_dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MMT/mmt/utils/data/preprocessor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MMT/mmt/utils/data/sampler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MMT/mmt/utils/data/transforms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MMT/mmt/utils/logging.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MMT/mmt/utils/lr_scheduler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MMT/mmt/utils/meters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MMT/mmt/utils/osutils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MMT/mmt/utils/rerank.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MMT/mmt/utils/serialization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MMT/mmt_options.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MMT/mmt_train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SWD/SWD.sh.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SWD/basenet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SWD/solver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SWD/swd_options.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SWD/taskcv_loader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SWD/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TransNorm/TRANSNORM.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TransNorm/loss.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TransNorm/lr_schedule.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TransNorm/network.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TransNorm/pre_process.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TransNorm/trans_norm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TransNorm/transnorm_options.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TransNorm/transnorm_resnet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/UDA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/UDA.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CDAN/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CDAN/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CDAN/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CDAN/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CDAN/train_image.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CDAN_complete/.idea/CDAN.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CDAN/.idea/CDAN.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CDAN_complete/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CDAN/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CDAN_complete/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CDAN/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CDAN_complete/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CDAN/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CDAN_complete/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CDAN/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CDAN_complete/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CDAN_complete/CDAN.sh" beforeDir="false" afterPath="$PROJECT_DIR$/CDAN/CDAN.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CDAN_complete/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/TransNorm/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CDAN_complete/cdan_options.py" beforeDir="false" afterPath="$PROJECT_DIR$/CDAN/cdan_options.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CDAN_complete/loss.py" beforeDir="false" afterPath="$PROJECT_DIR$/CDAN/loss.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CDAN_complete/lr_schedule.py" beforeDir="false" afterPath="$PROJECT_DIR$/CDAN/lr_schedule.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CDAN_complete/network.py" beforeDir="false" afterPath="$PROJECT_DIR$/CDAN/network.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CDAN_complete/output_1/iter_00000_model.pth.tar" beforeDir="false" afterPath="$PROJECT_DIR$/CDAN/output_1/iter_00000_model.pth.tar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CDAN_complete/output_1/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CDAN/output_1/log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CDAN_complete/pre_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/CDAN/pre_process.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CDAN_complete/san/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CDAN/san/log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDD_complete/MDD.sh" beforeDir="false" afterPath="$PROJECT_DIR$/MDD/MDD.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDD_complete/mdd_options.py" beforeDir="false" afterPath="$PROJECT_DIR$/MDD/mdd_options.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDD_complete/mdd_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/MDD/mdd_train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDD_complete/mdd_visualize.py" beforeDir="false" afterPath="$PROJECT_DIR$/MCD/solver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDD_complete/model/MDD.py" beforeDir="false" afterPath="$PROJECT_DIR$/MDD/model/MDD.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDD_complete/model/backbone.py" beforeDir="false" afterPath="$PROJECT_DIR$/MDD/model/backbone.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDD_complete/preprocess/data_provider.py" beforeDir="false" afterPath="$PROJECT_DIR$/MDD/preprocess/data_provider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDD_complete/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/MDD/test.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\9live\hm_code\pytorch_code\UDA\.idea" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1VtAraCWGZazBUhQJvm9xuD2YL4" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -18,7 +113,90 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\9live\hm_code\pytorch_code\UDA\MMT\mmt\utils" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\9live\hm_code\pytorch_code\UDA\MMT\mmt" />
+      <recent name="C:\Users\9live\hm_code\pytorch_code\UDA\TransNorm" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.test">
+    <configuration name="GRL_practice" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="UDA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GRL_practice.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytorch_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="UDA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MCD" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MCD/pytorch_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="UDA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MDD" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MDD/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.pytorch_test" />
+        <item itemvalue="Python.GRL_practice" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -43,20 +221,99 @@
       <option name="presentableId" value="Default" />
       <updated>1578062217227</updated>
     </task>
+    <task id="LOCAL-00001" summary="CDAN done">
+      <created>1578067363147</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578067363147</updated>
+    </task>
+    <task id="LOCAL-00002" summary="MDD done">
+      <created>1583241641837</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583241641837</updated>
+    </task>
+    <task id="LOCAL-00003" summary="CDAN done">
+      <created>1583241969629</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1583241969629</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="MDD done" />
+    <MESSAGE value="CDAN done" />
+    <option name="LAST_COMMIT_MESSAGE" value="CDAN done" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="1102" y="117" key="CommitChangelistDialog2" timestamp="1578067298104">
+    <state x="1075" y="117" key="CommitChangelistDialog2" timestamp="1583241968068">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1102" y="117" key="CommitChangelistDialog2/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1578067298104" />
-    <state x="740" y="277" key="FileChooserDialogImpl" timestamp="1578062240428">
+    <state x="1075" y="117" key="CommitChangelistDialog2/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1583241968068" />
+    <state x="592" y="219" key="FileChooserDialogImpl" timestamp="1581832161467">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="592" y="219" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1581832161467" />
+    <state x="740" y="277" key="FileChooserDialogImpl/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1581813513984" />
+    <state x="1321" y="415" width="262" height="210" key="Github.ShareDialog" timestamp="1583241872707">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="277" key="FileChooserDialogImpl/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1578062240428" />
-    <state x="1032" y="255" key="Vcs.Push.Dialog.v2" timestamp="1578067334973">
+    <state x="1321" y="415" width="262" height="210" key="Github.ShareDialog/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1583241872707" />
+    <state width="1899" height="280" key="GridCell.Tab.0.bottom" timestamp="1581220697578">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="255" key="Vcs.Push.Dialog.v2/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1578067334973" />
+    <state width="744" height="203" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581153359970" />
+    <state width="1899" height="280" key="GridCell.Tab.0.bottom/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1581220697578" />
+    <state width="1899" height="280" key="GridCell.Tab.0.center" timestamp="1581220697578">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="744" height="203" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581153359970" />
+    <state width="1899" height="280" key="GridCell.Tab.0.center/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1581220697578" />
+    <state width="1899" height="280" key="GridCell.Tab.0.left" timestamp="1581220697578">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="744" height="203" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581153359970" />
+    <state width="1899" height="280" key="GridCell.Tab.0.left/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1581220697578" />
+    <state width="1899" height="280" key="GridCell.Tab.0.right" timestamp="1581220697578">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="744" height="203" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581153359970" />
+    <state width="1899" height="280" key="GridCell.Tab.0.right/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1581220697578" />
+    <state x="926" y="164" key="SettingsEditor" timestamp="1583242754453">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="559" y="114" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1579825255180" />
+    <state x="926" y="164" key="SettingsEditor/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1583242754453" />
+    <state x="1032" y="255" key="Vcs.Push.Dialog.v2" timestamp="1583241994850">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1032" y="255" key="Vcs.Push.Dialog.v2/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1583241994850" />
+    <state x="1245" y="187" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1581213623201">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1245" y="187" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1581213623201" />
+    <state x="-6" y="0" width="781" height="830" key="dock-window-1" timestamp="1581153058187">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="-6" y="0" width="781" height="830" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1581153058187" />
+    <state x="-7" y="0" width="974" height="1047" key="dock-window-1/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579176400244" />
+    <state x="962" y="0" width="974" height="1047" key="dock-window-2" timestamp="1578793126069">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="962" y="0" width="974" height="1047" key="dock-window-2/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1578793126069" />
+    <state x="664" y="160" width="592" height="720" key="find.popup" timestamp="1578583949254">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="664" y="160" width="592" height="720" key="find.popup/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1578583949254" />
+    <state x="1019" y="183" width="840" height="856" key="search.everywhere.popup" timestamp="1582064853412">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="815" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1579941784685" />
+    <state x="1019" y="183" width="840" height="856" key="search.everywhere.popup/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1582064853412" />
   </component>
 </project>
