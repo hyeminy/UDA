@@ -104,7 +104,7 @@ class ResNetFC(nn.Module):
                 # weight initialize
                 self.fc.apply(init_weights)
 
-                self.__in_features = model_resnet.fc.in_features, class_num
+                self.__in_features = model_resnet.fc.in_features
 
         else:
             self.fc = model_resnet.fc
@@ -140,11 +140,17 @@ class ResNetFC(nn.Module):
                                   ]
 
             else:
-                parameter_list = [{"params": self.feature_layers.parameters(), "lr_mult": 1, 'decay_mult': 2}, \
-                                  {"params": self.fc.parameters(), "lr_mult": 10, 'decay_mult': 2}]
+                parameter_list = [{"params": self.feature_layers.parameters(),
+                                   "lr_mult": 1,
+                                   'decay_mult': 2}, \
+                                  {"params": self.fc.parameters(),
+                                   "lr_mult": 10,
+                                   'decay_mult': 2}]
 
         else:
-            parameter_list = [{"params":self.parameters(), "lr_mult":1, 'decay_mult':2}]
+            parameter_list = [{"params":self.parameters(),
+                               "lr_mult":1,
+                               'decay_mult':2}]
 
         return parameter_list
 
@@ -183,7 +189,7 @@ class AdversarialNetwork(nn.Module):
         if self.training:
             self.iter_num += 1
         coeff = calc_coeff(self.iter_num, self.high, self.low, self.alpha, self.max_iter)
-        # 이해하기
+
 
         x = x * 1.0
         x.register_hook(grl_hook(coeff))

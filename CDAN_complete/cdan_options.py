@@ -66,7 +66,7 @@ config['output_path'] = args.output_dir
 if not os.path.exists(config["output_path"]):
     os.mkdir(config["output_path"])
 
-config['out_file'] = open(os.path.join(config['output_path'], 'log.txt'), 'w')
+config['out_file'] = open(os.path.join(config['output_path'], 'log.txt'), 'w') #log를 다 저장
 if not os.path.exists(config["output_path"]):
     os.mkdir(config["output_path"])
 
@@ -77,7 +77,7 @@ config['t_dset_path']=args.t_dset_path
 ##########
 
 
-# CDAN은 test를 이상하게 함 --> 이 부분 수정해야 해
+# CDAN은 test를 이상하게 함 --> 이 부분 수정해야 해 (MDD 참고하기)
 config["prep"] = {'test_10crop': True, \
                   'params': {'resize_size': 256, \
                              'crop_size': 224,
@@ -111,31 +111,6 @@ config['data'] = {"source": {"list_path": args.s_dset_path,
                   }
 #batch size 원래 fix였는데 수정함
 
-'''
-if config["dataset"] == "office":
-    if ("amazon" in args.s_dset_path and "webcam" in args.t_dset_path) or \
-       ("webcam" in args.s_dset_path and "dslr" in args.t_dset_path) or \
-       ("webcam" in args.s_dset_path and "amazon" in args.t_dset_path) or \
-       ("dslr" in args.s_dset_path and "amazon" in args.t_dset_path):
-        config["optimizer"]["lr_param"]["lr"] = 0.001 # optimal parameters
-    elif ("amazon" in args.s_dset_path and "dslr" in args.t_dset_path) or \
-         ("dslr" in args.s_dset_path and "webcam" in args.t_dset_path):
-        config["optimizer"]["lr_param"]["lr"] = 0.0003 # optimal parameters       
-    config["network"]["params"]["class_num"] = 31 
-elif config["dataset"] == "image-clef":
-    config["optimizer"]["lr_param"]["lr"] = 0.001 # optimal parameters
-    config["network"]["params"]["class_num"] = 12
-elif config["dataset"] == "visda":
-    config["optimizer"]["lr_param"]["lr"] = 0.001 # optimal parameters
-    config["network"]["params"]["class_num"] = 12
-    config['loss']["trade_off"] = 1.0
-elif config["dataset"] == "office-home":
-    config["optimizer"]["lr_param"]["lr"] = 0.001 # optimal parameters
-    config["network"]["params"]["class_num"] = 65
-else:
-    raise ValueError('Dataset cannot be recognized. Please define your own dataset here.')
-
-'''
 
 if "ResNet" in args.net:
     config['network'] = {'name': network.ResNetFC,

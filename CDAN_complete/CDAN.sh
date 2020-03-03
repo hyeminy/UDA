@@ -1,5 +1,5 @@
 #!/bin/bash
-python C:\\Users\\9live\\hm_code\\platform_pytorch\\train_image.py \
+python C:\\Users\\9live\\hm_code\\platform_pytorch\\cdan_train.py \
     --s_dset_path C:\\Users\\9live\\hm_code\\open_data\\office31\\amazon\\images \
     --t_dset_path C:\\Users\\9live\\hm_code\\open_data\\office31\\dslr\\images \
     --method CDAN+E \

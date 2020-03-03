@@ -50,7 +50,7 @@ def image_test(resize_size=256, crop_size=224):
                                      std=[0.229, 0.224, 0.225])
     start_first = 0
     start_center = (resize_size-crop_size-1)/2
-    start_last = resize_size = crop_size -1
+    start_last = resize_size - crop_size -1
 
     return transforms.Compose([
         ResizeImage(resize_size),
