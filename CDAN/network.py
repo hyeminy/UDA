@@ -9,6 +9,9 @@ from torch.autograd import Variable
 import torchvision
 from torchvision import models
 
+resnet_dict = {"ResNet18":models.resnet18,"ResNet34":models.resnet34, "ResNet50":models.resnet50, "ResNet101":models.resnet101, "ResNet152":models.resnet152}
+
+
 def calc_coeff(iter_num, high=1.0, low=1.0, alpha=10.0, max_iter=10000.0):
     return np.float(2.0 * (high - low) / (1.0 + np.exp(-alpha*iter_num / max_iter)) - (high - low) + low)
 
@@ -50,7 +53,7 @@ class RandomLayer(nn.Module):
         super(RandomLayer, self).cuda()
         self.random_matrix = [val.cuda() for val in self.random_matrix]
 
-resnet_dict = {"ResNet18":models.resnet18,"ResNet34":models.resnet34, "ResNet50":models.resnet50, "ResNet101":models.resnet101, "ResNet152":models.resnet152}
+
 
 class ResNetFC(nn.Module):
 

@@ -2,73 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2d1d1ab-a240-4079-b4a9-2338c2e1f181" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GRL_practice.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MCD/.idea/MCD.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MCD/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MCD/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MCD/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MCD/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MCD/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MCD/MCD.sh.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MCD/basenet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MCD/mcd_options.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MCD/mcd_train.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MCD/pytorch_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MCD/solver.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MCD/taskcv_loader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MCD/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MDD/MDD.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MDD/mdd_options.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MDD/mdd_train.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MDD/mdd_visualize.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MDD/model/MDD.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MDD/model/backbone.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MDD/preprocess/data_provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MDD/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MMT/.idea/MMT.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MMT/MMT.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MMT/mmt/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MMT/mmt/models/resnet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MMT/mmt/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MMT/mmt/utils/data/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MMT/mmt/utils/data/base_dataset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MMT/mmt/utils/data/preprocessor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MMT/mmt/utils/data/sampler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MMT/mmt/utils/data/transforms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MMT/mmt/utils/logging.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MMT/mmt/utils/lr_scheduler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MMT/mmt/utils/meters.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MMT/mmt/utils/osutils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MMT/mmt/utils/rerank.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MMT/mmt/utils/serialization.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MMT/mmt_options.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MMT/mmt_train.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SWD/SWD.sh.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SWD/basenet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SWD/solver.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SWD/swd_options.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SWD/taskcv_loader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SWD/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TransNorm/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TransNorm/TRANSNORM.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TransNorm/loss.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TransNorm/lr_schedule.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TransNorm/network.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TransNorm/pre_process.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TransNorm/trans_norm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TransNorm/transnorm_options.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TransNorm/transnorm_resnet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/UDA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/UDA.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MDD/ReadMe.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cdan.sh" beforeDir="false" afterPath="$PROJECT_DIR$/CDAN.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/network.py" beforeDir="false" afterPath="$PROJECT_DIR$/network.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/options.py" beforeDir="false" afterPath="$PROJECT_DIR$/cdan_options.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pre_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/pre_process.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_image.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TransNorm/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../TransNorm/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TransNorm/network.py" beforeDir="false" afterPath="$PROJECT_DIR$/../TransNorm/network.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TransNorm/transnorm_options.py" beforeDir="false" afterPath="$PROJECT_DIR$/../TransNorm/transnorm_options.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +36,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Algorithm_test/Problems" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="ServiceViewManager">

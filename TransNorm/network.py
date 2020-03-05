@@ -16,6 +16,31 @@ from trans_norm import TransNorm1d, TransNorm2d
 
 resnet_dict = {"ResNet50": transnorm_resnet.resnet50}
 
+def calc_coeff(iter_num, high=1.0, low=0.0, alpha=10.0, max_iter=10000.0):
+    return np.float(2.0 * (high - low) / (1.0 + np.exp(-alpha*iter_num / max_iter)) - (high - low) + low)
+
+def grl_hook(coeff):
+    def fun1(grad):
+        return -coeff * grad.clone()
+    return fun1
+
+def init_weights(m):
+    classname = m.__class__.__name__
+
+    if classname.find('Conv2d') != -1 or classname.find('ConvTranspose2d') != -1 :
+        nn.init.kaiming_uniform_(m.weight)
+        nn.init.zeros_(m.bias)
+
+    elif classname.find('BatchNorm') != -1 :
+        nn.init.normal_(m.weight, 1.0, 0.02)
+        nn.init.zeros_(m.bias)
+
+    elif classname.find('Linear') != -1:
+        nn.init.xavier_normal_(m.weight)
+        nn.init.zeros_(m.bias)
+
+
+
 class ResNetFc(nn.Module):
     def __init__(self, \
                  resnet_name, \
@@ -24,14 +49,17 @@ class ResNetFc(nn.Module):
                  new_cls=False,\
                  class_num=1000,\
                  type=None):
+
         network_config = {'type' : type}
 
         super(ResNetFc, self).__init__()
         
         model_resnet = resnet_dict[resnet_name](pretrained=True, **network_config) # transnorm_resnet.resnet50(pretrained=True)
+
         print('-------------------------Done----------------------------------')
         print(model_resnet)
         print('---------------------------------------------------------------')
+
         self.conv1 = model_resnet.conv1
         self.bn1 = model_resnet.bn1
         self.relu = model_resnet.relu
@@ -200,27 +228,4 @@ class AdversarialNetwork(nn.Module):
                  "decay_mult" : 2}]
 
 
-
-def calc_coeff(iter_num, high=1.0, low=0.0, alpha=10.0, max_iter=10000.0):
-    return np.float(2.0 * (high - low) / (1.0 + np.exp(-alpha*iter_num / max_iter)) - (high - low) + low)
-
-def grl_hook(coeff):
-    def fun1(grad):
-        return -coeff * grad.clone()
-    return fun1
-
-def init_weights(m):
-    classname = m.__class__.__name__
-
-    if classname.find('Conv2d') != -1 or classname.find('ConvTranspose2d') != -1 :
-        nn.init.kaiming_uniform_(m.weight)
-        nn.init.zeros_(m.bias)
-
-    elif classname.find('BatchNorm') != -1 :
-        nn.init.normal_(m.weight, 1.0, 0.02)
-        nn.init.zeros_(m.bias)
-
-    elif classname.find('Linear') != -1:
-        nn.init.xavier_normal_(m.weight)
-        nn.init.zeros_(m.bias)
 

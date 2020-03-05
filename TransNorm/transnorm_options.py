@@ -18,9 +18,9 @@ import network
 #import pdb
 #import math
 
-parser = argparse.ArgumentParser(description='Conditional Damain Adversarial Network')
+parser = argparse.ArgumentParser(description='TransNorm')
 
-parser.add_argument('--method', type=str, default='CDAN+E', choices=['CDAN', 'CDAN+E', 'DANN'])
+parser.add_argument('--method', type=str, default='CDAN_TransNorm', choices=['CDAN_TransNorm'])
 parser.add_argument('--gpu_id', type=str, nargs='?', default='0', help="device id to run")
 parser.add_argument('--net', type=str, default='ResNet50',
                     choices=["ResNet18", "ResNet34", "ResNet50", "ResNet101", "ResNet152", "VGG11", "VGG13", "VGG16",
@@ -48,7 +48,7 @@ parser.add_argument('--source_batchsize',type=int, default=36)
 parser.add_argument('--target_batchsize',type=int, default=36)
 parser.add_argument('--test_batchsize',type=int, default=4)
 parser.add_argument('--tensorboard_path', type=str, default='tensorboard')
-parser.add_argument('--type', type=str, default='', choices=['selection','normal'])
+parser.add_argument('--type', type=str, default='', choices=['selection','normal']) # Transnorm 선택 여부
 ##################
 
 args = parser.parse_args()
@@ -72,9 +72,9 @@ config['out_file'] = open(os.path.join(config['output_path'], 'log.txt'), 'w')
 if not os.path.exists(config["output_path"]):
     os.mkdir(config["output_path"])
 
-config['tensorboard_path']=args.tensorboard_path
-if not os.path.exists(config['tensorboard_path']):
-    os.system(config['tensorboard_path'])
+# config['tensorboard_path']=args.tensorboard_path
+# if not os.path.exists(config['tensorboard_path']):
+#     os.system(config['tensorboard_path'])
 
 ##########
 #내가 추가한 부분
@@ -84,11 +84,11 @@ config['t_dset_path']=args.t_dset_path
 
 
 # CDAN은 test를 이상하게 함 --> 이 부분 수정해야 해
-config["prep"] = {'test_10crop': True, \
-                  'params': {'resize_size': 256, \
-                             'crop_size': 224,
-                             }
-                  }
+# config["prep"] = {'test_10crop': True, \
+#                   'params': {'resize_size': 256, \
+#                              'crop_size': 224,
+#                              }
+#                   }
 
 config["loss"] = {"trade_off": args.trade_off}  # 원래 1.0으로 fix되어있는데, args.trade_off로 수정
 config['loss']['random'] = args.random  # 어디에 쓰이는 거지

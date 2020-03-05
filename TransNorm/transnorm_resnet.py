@@ -16,11 +16,11 @@ model_urls = {
 
 def resnet50(pretrained=False, **network_config): # pretrained=True로 해서 호출 됨
 
-    for key, value in network_config.items():
-        print("{0} : {1}".format(key, value))
+    for key, value in network_config.items(): # 내가 추가한 것 net_config가 잘 들어왔는지 확인 하기 위해 추가한 것
+        print("{0} : {1}".format(key, value)) # 이 부분이 무엇이 나오는지 확인이 필요
 
 
-    model = ResNet(Bottleneck, [3,4,6,3], **network_config)
+    model = ResNet(Bottleneck, [3,4,6,3], **network_config) # network config = type이 true?
 
     if pretrained:
         model.load_state_dict(model_zoo.load_url(model_urls['resnet50']))
