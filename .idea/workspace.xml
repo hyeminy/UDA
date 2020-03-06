@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99d69811-b191-46a6-8220-438350129dc8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/MDD/ReadMe.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CDAN/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CDAN/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CDAN/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CDAN/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CDAN/network.py" beforeDir="false" afterPath="$PROJECT_DIR$/CDAN/network.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransNorm/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/TransNorm/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TransNorm/network.py" beforeDir="false" afterPath="$PROJECT_DIR$/TransNorm/network.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransNorm/transnorm_options.py" beforeDir="false" afterPath="$PROJECT_DIR$/TransNorm/transnorm_options.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TransNorm/transnorm_resnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/TransNorm/transnorm_resnet.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +40,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../UDA_Template_pytorch" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
@@ -189,29 +183,37 @@
       <option name="project" value="LOCAL" />
       <updated>1583243158560</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="3월 6일 commit - Transnorm 수정">
+      <created>1583449946642</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1583449946642</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="MDD done" />
     <MESSAGE value="CDAN done" />
     <MESSAGE value="3월 3일 commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="3월 3일 commit" />
+    <MESSAGE value="3월 6일 commit - Transnorm 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="3월 6일 commit - Transnorm 수정" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1186" y="328" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583243930597">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1186" y="328" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1583243930597" />
-    <state x="1020" y="117" key="CommitChangelistDialog2" timestamp="1583243157926">
+    <state x="1020" y="117" key="CommitChangelistDialog2" timestamp="1583449945726">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1020" y="117" key="CommitChangelistDialog2/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1583243157926" />
-    <state x="740" y="277" key="FileChooserDialogImpl" timestamp="1583332608182">
+    <state x="1020" y="117" key="CommitChangelistDialog2/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1583449945726" />
+    <state x="740" y="277" key="FileChooserDialogImpl" timestamp="1583499286793">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="592" y="219" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1581832161467" />
-    <state x="740" y="277" key="FileChooserDialogImpl/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1583332608182" />
+    <state x="740" y="277" key="FileChooserDialogImpl/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1583499286793" />
     <state x="1321" y="415" width="262" height="210" key="Github.ShareDialog" timestamp="1583241872707">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -241,19 +243,19 @@
     </state>
     <state x="559" y="114" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1579825255180" />
     <state x="926" y="164" key="SettingsEditor/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1583243139892" />
-    <state x="1032" y="255" key="Vcs.Push.Dialog.v2" timestamp="1583243199300">
+    <state x="1032" y="255" key="Vcs.Push.Dialog.v2" timestamp="1583449959813">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="255" key="Vcs.Push.Dialog.v2/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1583243199300" />
+    <state x="1032" y="255" key="Vcs.Push.Dialog.v2/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1583449959813" />
     <state x="1245" y="187" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1581213623201">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1245" y="187" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1581213623201" />
-    <state x="-7" y="0" width="974" height="1047" key="dock-window-1" timestamp="1583446642281">
+    <state x="-7" y="0" width="974" height="1047" key="dock-window-1" timestamp="1583495482182">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-6" y="0" width="781" height="830" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1581153058187" />
-    <state x="-7" y="0" width="974" height="1047" key="dock-window-1/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1583446642281" />
+    <state x="-7" y="0" width="974" height="1047" key="dock-window-1/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1583495482182" />
     <state x="962" y="0" width="974" height="1047" key="dock-window-2" timestamp="1578793126069">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

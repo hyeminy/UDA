@@ -54,7 +54,7 @@ class ResNetFc(nn.Module):
 
         super(ResNetFc, self).__init__()
         
-        model_resnet = resnet_dict[resnet_name](pretrained=True, **network_config) # transnorm_resnet.resnet50(pretrained=True)
+        model_resnet = resnet_dict[resnet_name](pretrained=True, **network_config) # transnorm_resnet.resnet50(pretrained=True, **network_cofig)
 
         print('-------------------------Done----------------------------------')
         print(model_resnet)
