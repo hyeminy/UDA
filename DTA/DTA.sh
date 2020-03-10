@@ -14,6 +14,8 @@ python C:\\Users\\9live\\hm_code\\platform_pytorch\\dta_train.py \
      --test False \
      --batch_size 128 \
      --source_dataset_code 'visda_source' \
+     --source_path '' \
+     --target_path '' \
      --target_dataset_code 'visda_target' \
      --tranfrom_type 'visda_standard' \
      --classifier_ckpt_path "" \

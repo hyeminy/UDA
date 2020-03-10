@@ -8,6 +8,8 @@ def main(args, trainer_cls):
 
     export_root, args = _setup_experiments(args)
 
+    dataloaders = dataloaders_factory(args)
+
 
 
 
