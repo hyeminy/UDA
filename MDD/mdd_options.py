@@ -52,7 +52,8 @@ config['target_path'] = args.target_path
 config['class_num'] = args.class_num
 config['width'] = args.width
 config['srcweight'] = args.srcweight
-config['is_cen'] = args.is_cen
+#config['is_cen'] = args.is_cen
+config['is_cen'] = False
 
 config['base_net'] = args.base_net
 
@@ -63,7 +64,8 @@ config['max_iter'] = args.max_iter
 config['eval_iter'] = args.eval_iter
 config['output_path'] = args.output_path
 
-
+if not os.path.exists(config["output_path"]):
+	os.mkdir(config["output_path"])
 
 
 
