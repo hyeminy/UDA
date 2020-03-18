@@ -1,3 +1,10 @@
+import pprint as pp
+
+import os
+import torch.nn as nn
+import torch.optim as optim
+
+from datasets.__init__ import dataloaders_factory
 from dta_options import args
 from trainser.dta_trainer import DTATrainer
 
@@ -9,6 +16,13 @@ def main(args, trainer_cls):
     export_root, args = _setup_experiments(args)
 
     dataloaders = dataloaders_factory(args)
+
+    feature_extractor = create_feature_extractor(args),
+    classifier = create_class_classifier(args)
+
+    models = {
+
+    }
 
 
 

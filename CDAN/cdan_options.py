@@ -43,7 +43,7 @@ parser.add_argument('--random', type=bool, default=False, help="whether use rand
 parser.add_argument('--num_iterations', type=int, default=100004)
 parser.add_argument('--output_for_test', type=bool, default=True)
 parser.add_argument('--class_num', type=int, default=31)
-parser.add_argument('--trade_off', type=float, default=0.1)
+parser.add_argument('--trade_off', type=float, default=1.0)
 parser.add_argument('--source_batchsize',type=int, default=36)
 parser.add_argument('--target_batchsize',type=int, default=36)
 parser.add_argument('--test_batchsize',type=int, default=4)
@@ -126,3 +126,9 @@ else:  # 다른 네트워크 추가하려면 이 부분 추가해야 함
 
 config['out_file'].write(str(config))
 config['out_file'].flush()
+
+
+print('----------------------------------------')
+for key, value in config.items():
+    print(key, ":", value)
+print('----------------------------------------')

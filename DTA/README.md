@@ -29,3 +29,50 @@ torchvision==0.4.0
 tqdm==4.34.0
 
 python main.py --config_path ./configs/resnet50_dta_vat.json
+
+
+## dataset code 종류
+visdasource
+
+visdatarget
+
+amazon
+
+dslr
+
+webcam
+
+
+## transforms type source  종류
+visda_standard_source
+
+visda_standard
+
+amazon_source
+
+amazon_source
+
+dslr_source
+
+webcam_source
+
+
+## transforms type target  종류
+
+visda_standard_target
+
+amazon_target
+
+dslr_target
+
+webcam_target
+
+## transforms type test 종류
+
+visda_standard
+
+amazon_test
+
+dslr_test
+
+webcam_test

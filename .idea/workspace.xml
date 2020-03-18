@@ -2,11 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99d69811-b191-46a6-8220-438350129dc8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DTA/datasets/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTA/datasets/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTA/datasets/visda.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DTA/augmentations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DTA/augmentations/misc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DTA/datasets/office31.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DTA/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DTA/models/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DTA/models/visda_architectures.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DTA/DTA.sh" beforeDir="false" afterPath="$PROJECT_DIR$/DTA/DTA.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CDAN/CDAN.sh" beforeDir="false" afterPath="$PROJECT_DIR$/CDAN/CDAN.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CDAN/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CDAN/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CDAN/cdan_options.py" beforeDir="false" afterPath="$PROJECT_DIR$/CDAN/cdan_options.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CDAN/cdan_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/CDAN/cdan_train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DTA/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/DTA/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DTA/datasets/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/DTA/datasets/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DTA/datasets/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/DTA/datasets/base.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DTA/dta_options.py" beforeDir="false" afterPath="$PROJECT_DIR$/DTA/dta_options.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DTA/dta_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/DTA/dta_train.py" afterDir="false" />
     </list>
@@ -44,7 +53,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../UDA_Template_pytorch" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Algorithm_test" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
@@ -208,7 +217,35 @@
       <option name="project" value="LOCAL" />
       <updated>1583707328007</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="3/10 DTA ver0.2">
+      <created>1583798421072</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1583798421072</updated>
+    </task>
+    <task id="LOCAL-00010" summary="3/18 cdan_train.py 추가">
+      <created>1584523356771</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1584523356771</updated>
+    </task>
+    <task id="LOCAL-00011" summary="3/18 mdd_options 수정함">
+      <created>1584523789521</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1584523789521</updated>
+    </task>
+    <task id="LOCAL-00012" summary="3/18 mdd_options 수정함">
+      <created>1584523815767</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1584523815767</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -218,22 +255,25 @@
     <MESSAGE value="3월 6일 commit - Transnorm 수정" />
     <MESSAGE value="3월 6일 commit - Transnorm complete" />
     <MESSAGE value="3/9 DTA ver0.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="3/9 DTA ver0.1" />
+    <MESSAGE value="3/10 DTA ver0.2" />
+    <MESSAGE value="3/18 cdan_train.py 추가" />
+    <MESSAGE value="3/18 mdd_options 수정함" />
+    <option name="LAST_COMMIT_MESSAGE" value="3/18 mdd_options 수정함" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1186" y="328" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583243930597">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1186" y="328" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1583243930597" />
-    <state x="1020" y="117" key="CommitChangelistDialog2" timestamp="1583707327103">
+    <state x="1020" y="117" key="CommitChangelistDialog2" timestamp="1584523814967">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1020" y="117" key="CommitChangelistDialog2/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1583707327103" />
-    <state x="740" y="277" key="FileChooserDialogImpl" timestamp="1583624523626">
+    <state x="1020" y="117" key="CommitChangelistDialog2/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1584523814967" />
+    <state x="740" y="277" key="FileChooserDialogImpl" timestamp="1584534528455">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="592" y="219" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1581832161467" />
-    <state x="740" y="277" key="FileChooserDialogImpl/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1583624523626" />
+    <state x="740" y="277" key="FileChooserDialogImpl/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1584534528455" />
     <state x="1321" y="415" width="262" height="210" key="Github.ShareDialog" timestamp="1583241872707">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -263,19 +303,19 @@
     </state>
     <state x="559" y="114" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1579825255180" />
     <state x="926" y="164" key="SettingsEditor/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1583243139892" />
-    <state x="1032" y="255" key="Vcs.Push.Dialog.v2" timestamp="1583707336381">
+    <state x="1032" y="255" key="Vcs.Push.Dialog.v2" timestamp="1584523825269">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="255" key="Vcs.Push.Dialog.v2/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1583707336381" />
+    <state x="1032" y="255" key="Vcs.Push.Dialog.v2/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1584523825269" />
     <state x="1245" y="187" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1581213623201">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1245" y="187" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1581213623201" />
-    <state x="-8" y="-8" width="976" height="1056" key="dock-window-1" timestamp="1583628530019">
+    <state x="563" y="219" width="735" height="999" key="dock-window-1" timestamp="1583846805533">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-6" y="0" width="781" height="830" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1581153058187" />
-    <state x="-8" y="-8" width="976" height="1056" key="dock-window-1/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1583628530019" />
+    <state x="563" y="219" width="735" height="999" key="dock-window-1/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1583846805533" />
     <state x="962" y="0" width="974" height="1047" key="dock-window-2" timestamp="1578793126069">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

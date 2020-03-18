@@ -9,12 +9,12 @@ python C:\\Users\\9live\\hm_code\\platform_pytorch\\cdan_train.py \
     --test_interval 5 \
     --snapshot_interval 5000 \
     --output_dir output_1 \
-    --lr 0.0003 \
+    --lr 0.001 \
     --random False \
     --num_iterations 100004 \
     --output_for_test True \
     --class_num 31 \
-    --trade_off 0.1 \
+    --trade_off 1.0 \
     --source_batchsize 32 \
     --target_batchsize 32 \
     --test_batchsize 4 \

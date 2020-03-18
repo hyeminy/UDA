@@ -1,4 +1,4 @@
-from .cdan_options import config
+from cdan_options import config
 
 import numpy as np
 import pdb
