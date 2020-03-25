@@ -1,4 +1,4 @@
-from .transnorm_options import config
+from transnorm_options import config
 
 import numpy as np
 import pdb
@@ -174,7 +174,7 @@ def train(config):
         outputs_source = outputs[:batch_size]
         outputs_target = outputs[batch_size:]
 
-        if config['method'] == 'CDAN+E':
+        if config['method'] == 'CDAN+E' or config['method'] == 'CDAN_TransNorm':
             entropy = loss.Entropy(softmax_out)
             transfer_loss = loss.CDAN([features, softmax_out], ad_net, entropy, network.calc_coeff(i), random_layer)
         elif config['method'] == 'CDAN':
@@ -185,7 +185,7 @@ def train(config):
             raise ValueError('Method cannot be recognized')
 
         classifier_loss = nn.CrossEntropyLoss()(outputs_source, labels_source)
-        total_loss = loss_params["traide_off"] * transfer_loss + classifier_loss
+        total_loss = loss_params["trade_off"] * transfer_loss + classifier_loss
 
         total_loss.backward()
         optimizer.step()

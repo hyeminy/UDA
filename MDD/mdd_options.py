@@ -1,5 +1,6 @@
 import argparse
 import os
+import pprint
 
 
 parser = argparse.ArgumentParser()
@@ -9,7 +10,8 @@ parser.add_argument('--optim_type', type=str, default='sgd')
 parser.add_argument('--lr', type = float, default=0.004)
 parser.add_argument('--momentum', type=float, default=0.9)
 parser.add_argument('--weight_decay', type=float, default=0.0005)
-parser.add_argument('--nesterov', type=bool, default=True)
+#parser.add_argument('--nesterov', type=bool, default=True)
+parser.add_argument('--nesterov', default=True, type=lambda x: (str(x).lower() in ['true','1', 'yes']))
 parser.add_argument('--lr_type', type=str, default='inv')
 parser.add_argument('--gamma', type=float, default=0.001)
 parser.add_argument('--decay_rate', type=float, default=0.75)
@@ -21,7 +23,8 @@ parser.add_argument('--target_path', default=None, type=str)
 parser.add_argument('--class_num', default=31, type=int)
 parser.add_argument('--width', default=1024, type=int)
 parser.add_argument('--srcweight', default=4, type=int)
-parser.add_argument('--is_cen', default=False, type=bool)
+#parser.add_argument('--is_cen', default=False, type=bool)
+parser.add_argument('--is_cen', default=False, type=lambda x: (str(x).lower() in ['true','1', 'yes']))
 
 parser.add_argument('--base_net', default='resnet50', type=str)
 parser.add_argument('--batch_size', default=32, type=int)
@@ -53,8 +56,8 @@ config['target_path'] = args.target_path
 config['class_num'] = args.class_num
 config['width'] = args.width
 config['srcweight'] = args.srcweight
-#config['is_cen'] = args.is_cen
-config['is_cen'] = False
+config['is_cen'] = args.is_cen
+#config['is_cen'] = False
 
 config['base_net'] = args.base_net
 
@@ -68,6 +71,6 @@ config['output_path'] = args.output_path
 if not os.path.exists(config["output_path"]):
 	os.mkdir(config["output_path"])
 
-
-
+pp = pprint.PrettyPrinter(width=20, indent=4)
+pp.pprint(config)
 

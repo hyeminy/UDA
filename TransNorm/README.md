@@ -12,9 +12,16 @@ torchvision >= 0.2.1
 
 ###### a -> d, d -> w : 
 
-args.lr = 0.0003
 
-args.trade_off = 0.1
+
+a -> d, d -> w : args.lr = 0.0003
+
+그외의 경우, a -> w, d -> a, w -> a , w -> d
+
+args.lr = 0.001
+
+args.trade_off = 1.0
+
 
 **image-clef**
 

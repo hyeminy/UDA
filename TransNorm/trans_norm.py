@@ -123,7 +123,7 @@ class _TransNorm(Module):
             if input.dim() == 2 :
                 tau = tau.view(1, self.num_features)
             elif input.dim() == 4 :
-                tau = tau.view(1, self.num_featueres, 1, 1)
+                tau = tau.view(1, self.num_features, 1, 1)
 
             if option == 'out':
                 output = x_hat * tau.detach()
@@ -140,27 +140,37 @@ class _TransNorm(Module):
             else:
                 return output
 
-        else: # test mode 할 때 이부분 정리해야함 여기서 정리하기
 
-            x_hat = F.batch_norm(input, \
-                                 self.running_var_target, \
-                                 self.weight, \
-                                 self.bias, \
-                                 self.training or not self.track_running_stats, \
-                                 self.momentum, \
-                                 self.eps)
+        else:  ##test mode
 
-            if kernel == 'Gaussian' :
-                weight = torch.abs(self.running_mean_source - self.running_mean_target)
-                tau = torch.exp(-weight / (torch.median(weight) + self.eps))
+            x_hat = F.batch_norm(
 
-            elif kernel == "Softmax":
-                weight = torch.abs(self.running_mean_source - self.running_mean_target)
-                temperature = 0.5
-                tau = nn.Softmax(dim=0)(weight/temperature)
+                input, self.running_mean_target, self.running_var_target, self.weight, self.bias,
 
-            elif kernel == "Student":
+                self.training or not self.track_running_stats, self.momentum, self.eps)
+
+            if kernel == 'Gaussian':
+
+                weight = torch.abs(self.running_mean_source - self.running_mean_target)  ## (1, D)
+
+                tau = torch.exp(-weight / (torch.median(weight) + self.eps))  ## (1, D)
+
+                ## Just a normal Gaussian is wrong here, so we add bandwidth
+
+            elif kernel == 'Softmax':
+
+                weight = torch.abs(self.running_mean_source - self.running_mean_target)  ## (1, D)
+
+                temperature = 0.05
+
+                tau = nn.Softmax(dim=0)(weight / temperature)
+
+                ##Winner takes all is wrong here, so we add temperature to diverse it
+
+            elif kernel == 'Student':
+
                 weight = torch.abs(self.running_mean_source / torch.sqrt(self.running_var_source + self.eps)
+
                                    - self.running_mean_target / torch.sqrt(self.running_var_target + self.eps))
 
                 tau = 1.0 / (1.0 + weight)
@@ -168,17 +178,25 @@ class _TransNorm(Module):
             tau = self.num_features * tau / sum(tau)
 
             if input.dim() == 2:
+
                 tau = tau.view(1, self.num_features)
 
             elif input.dim() == 4:
-                tau = tau.view(1, self.num_features, 1,1)
+
+                tau = tau.view(1, self.num_features, 1, 1)
 
             if option == 'out':
+
                 output = x_hat * tau.detach()
-            elif option == 'None':
+
+            elif option == "None":
+
                 output = x_hat
-            elif option == 'residual':
-                output = x_hat * (1+tau.detach())
+
+            elif option == "residual":
+
+                output = x_hat * (1 + tau.detach())
+
             return output
 
     def _check_input_dim(self, input):

@@ -138,7 +138,7 @@ class ResNetFc(nn.Module):
         else:
             return x, y
 
-    def output_dim(self):
+    def output_num(self):
         return self.__in_features
 
     def get_parameters(self):

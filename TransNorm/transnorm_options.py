@@ -36,12 +36,14 @@ parser.add_argument('--snapshot_interval', type=int, default=5000, help="interva
 parser.add_argument('--output_dir', type=str, default='san',
                     help="output directory of our model (in ../snapshot directory)")
 parser.add_argument('--lr', type=float, default=0.001, help="learning rate")
-parser.add_argument('--random', type=bool, default=False, help="whether use random projection")
+#parser.add_argument('--random', type=bool, default=False, help="whether use random projection")
+parser.add_argument('--random', default=False, type=lambda x: (str(x).lower() in ['true','1', 'yes']))
 
 ##################
 # 아래 부분은 원래 코드에는 없었는데 내가 추가
 parser.add_argument('--num_iterations', type=int, default=100004)
-parser.add_argument('--output_for_test', type=bool, default=True)
+#parser.add_argument('--output_for_test', type=bool, default=True)
+parser.add_argument('--output_for_test', default=True, type=lambda x: (str(x).lower() in ['true','1', 'yes']))
 parser.add_argument('--class_num', type=int, default=31)
 parser.add_argument('--trade_off', type=float, default=0.1)
 parser.add_argument('--source_batchsize',type=int, default=36)
