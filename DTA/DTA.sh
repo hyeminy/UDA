@@ -1,55 +1,6 @@
 #!/bin/bash
-python C:\\Users\\9live\\hm_code\\platform_pytorch\\dta_train.py \
-     --lr 0.001 \
-     --epoch 20 \
-     --num_gpu 1 \
-     --device_idx '0, 1, 2, 3' \
-     --device 'cuda' \
-     --weight_decay 0.0005 \
-     --decay_step 10 \
-     --momentum 0.9 \
-     --gamma 0.5 \
-     --log_period_as_iter 10000 \
-     --validation_period_as_iter 30000 \
-     --test False \
-     --batch_size 128 \
-     --source_dataset_code 'visda_source' \
-     --source_path '' \
-     --target_path '' \
-     --target_dataset_code 'visda_target' \
-     --tranfrom_type 'visda_standard' \
-     --classifier_ckpt_path "" \
-     --encoder_ckpt_path "" \
-     --pretrain "" \
-     --optimizer 'SGD' \
-     --model "resnet50" \
-     --rampup_length 20 \
-     --source_rampup_length 1 \
-     --random_seed 12345 \
-     --target_consistency_loss "kld" \
-     --source_consistency_loss "l2" \
-     --train_mode "dta" \
-     --target_consistency_weight 2 \
-     --source_consistency_weight 1 \
-     --target_fc_consistency_weight 2 \
-     --source_fc_consistency_weight 1 \
-     --target_cnn_consistency_weight 2 \
-     --source_cnn_consistency_weight 1 \
-     --cls_balance_weight 0.01 \
-     --entmin_weight 0.02 \
-     --delta 0.01 \
-     --cnn_delta 0.01 \
-     --fc_delta 0.1 \
-     --source_delta 0.0025 \
-     --source_delta_fc 0.1 \
-     --use_vat True \
-     --xi 1e-06 \
-     --ip 1 \
-     --eps 15 \
-     --source_vat_loss_wegiht 0.0 \
-     --target_vat_loss_weight 0.2 \
-     --experiment_dir "resnet50_experiments" \
-     --experiment_description "res50_dta_vat" \
-     --checkpoint_period 1
-
-
+python C:\\Users\\9live\\hm_code\\platform_pytorch\\UDA\\dta_train \
+    --config_path "C:\\Users\\9live\\hm_code\pytorch_code\\UDA\\DTA\\configs\\resnet50_dta_vat.json" \
+    --amazon_path "" \
+    --webcam_path "" \
+    --dslr_path ""

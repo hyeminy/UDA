@@ -1,14 +1,8 @@
 import argparse
-import json
 
-#from datasets import DATA_SETS
 
-parser = argparse.ArgumentParser(description='Options for DTA')
 
-#########################
-# Load Template
-#########################
-parser.add_argument('--config_path', type=str, default='', help='config json path')
+parser = argparse.ArgumentParser(description= 'options for DTA')
 
 #########################
 # General Train Settings
@@ -84,28 +78,7 @@ parser.add_argument('--experiment_dir', type=str, default="resnet50_experiments"
 parser.add_argument('--experiment_description', type=str, default="res50_dta_vat")
 parser.add_argument('--checkpoint_period', type=int, default=1)
 
-#########################
-# office 31 Data path
-#########################
-parser.add_argument('--amazon_path', type=str, default='')
-parser.add_argument('--dslr_path', type=str, default='')
-parser.add_argument('--webcam_path', type=str, default='')
-
-def _load_experiments_config_from_json(args, json_path, arg_parser):
-    with open(json_path, 'r') as f:
-        config = json.load(f)
-
-    for config_name, config_val in config.items():
-        if config_name in args.__dict__ and getattr(args, config_name) == arg_parser.get_default(config_name):
-            setattr(args, config_name, config_val)
-
-    print("Config at '{}' has been loaded".format(json_path))
+args = parser.parse_args()
 
 
-def get_parsed_args(arg_parser: argparse.ArgumentParser):
-    args = arg_parser.parse_args()
-    if args.config_path:
-        _load_experiments_config_from_json(args, args.config_path, arg_parser)
-    return args
 
-args = get_parsed_args(parser)

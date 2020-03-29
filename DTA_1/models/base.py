@@ -4,11 +4,13 @@ from abc import ABC
 import torch
 from torch import nn as nn
 
-
 class AbstractModel(nn.Module, ABC):
     def state_dict(self, destination=None, prefix='', keep_vars=False):
-        state_dict = super().state_dict(destination=destination, prefix=prefix, keep_vars=keep_vars)
+        state_dict = super().state_dict(destination=destination,
+                                        prefix=prefix,
+                                        keep_vars=keep_vars)
         new_state_dict = OrderedDict()
+
         for k, v in state_dict.items():
             name = k.replace("module.", "")
             new_state_dict[name] = v
@@ -16,8 +18,9 @@ class AbstractModel(nn.Module, ABC):
 
     def load_state_dict(self, state_dict, strict=True):
         new_state_dict = OrderedDict()
-        for k, v in state_dict.items():
-            name = k.replace("module.", "")
+
+        for k , v in state_dict.items():
+            name = k.replace("module.","")
             new_state_dict[name] = v
         super().load_state_dict(new_state_dict, strict=strict)
 

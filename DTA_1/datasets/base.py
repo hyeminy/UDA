@@ -6,7 +6,9 @@ from torchvision import transforms as transforms
 
 from augmentations.misc import Identity
 
-class AbstractDataSet(object):
+
+class AbstractDataset(object):
+
     @staticmethod
     @abc.abstractmethod
     def num_class():
@@ -23,21 +25,21 @@ class AbstractDataSet(object):
         raise NotImplementedError
 
     @classmethod
-    def train_transform_config(cls, transform_type=None):
+    def train_transform_config(cls, transform_type = None): #cls = VisdaSource class
         config = cls._add_additional_transform(
             {
                 'visda_standard_source': transforms.Compoes([
-                    transforms.RandomResizedCrop(size=224, scale=(0.75, 1.33)),
+                    transforms.RandomResizedCrop(size=224, scale = (0.75, 1.33)),
                     transforms.RandomHorizontalFlip(),
                     transforms.ToTensor(),
                     transforms.Normalize(**cls.statistics())]),
-                'visda_standard_target': transforms.Compose([
-                    transforms.Resize((224, 224)),
+                'visda_standard_target' : transforms.Compose([
+                    transforms.Resize((224,224)),
                     transforms.RandomHorizontalFlip(),
                     transforms.ToTensor(),
                     transforms.Normalize(**cls.statistics())]),
-                'amazon_source': transforms.Compose([
-                    transforms.Resize((256, 256)),
+                'amazon_source' : transforms.Compose([
+                    transforms.Resize((256,256)),
                     transforms.RandomResizedCrop(224),
                     transforms.RandomHorizontalFlip(),
                     transforms.ToTensor(),
@@ -82,22 +84,25 @@ class AbstractDataSet(object):
             }
         )
         if transform_type:
-            return config[transform_type]  # 위의 dict에서 해당하는 부분의 transform 반환
+            return config[transform_type] # 특정 transform 반환
 
         else:
-            return config  # 전체 위의  transform dict 반환
+            return config # 전제 transform 반환
+
+
+
 
     @classmethod
     def eval_transform_config(cls, transform_type=None):
         config = cls._add_additional_transform(
             {
                 'visda_standard': transforms.Compose([
-                    transforms.Resize((224, 224)),
+                    transforms.Resize((224,224)),
                     transforms.ToTensor(),
                     transforms.Normalize(**cls.statistics())
                 ]),
-                'amazon_test': transforms.Compose([
-                    transforms.Resize((224, 224)),
+                'amazon_test' : transforms.Compose([
+                    transforms.Resize((224,224)),
                     transforms.ToTensor(),
                     transforms.Normalize(**cls.statistics())
                 ]),
@@ -123,10 +128,10 @@ class AbstractDataSet(object):
     def _add_additional_transform(cls, default_transform):
         new_transform_config = {}
         for transform_type, transform in default_transform.items():
-            new_transform_config[transform_type] = transforms.Compose([
+            new_transform_config[transform_type] = transform.Compose([
                 cls._preprocess_transform(),
                 transform,
-                cls._postprocess_transform()
+                cls._preprocess_transform()
             ])
         return new_transform_config
 
@@ -137,7 +142,6 @@ class AbstractDataSet(object):
     @classmethod
     def _postprocess_transform(cls):
         return Identity()
-
 
 
 class CombinedDataSet(data.Dataset):

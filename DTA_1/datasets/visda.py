@@ -12,8 +12,8 @@ source_path = args.source_path
 target_path = args.target_path
 
 class VisdaSource(ImageFolder, AbstractDataSet):
-    def __init__(self, root=source_path, **kwargs):
-        root = os.path.join(root, 'train') # 이 부분 어떤 부분이지
+    def __init__(self,root=source_path, **kwargs):
+        root = root
         super().__init__(root, **kwargs)
 
     @staticmethod
@@ -25,13 +25,12 @@ class VisdaSource(ImageFolder, AbstractDataSet):
         return "visda_source"
 
     @staticmethod
-    def statistics():
+    def statistice():
         return VISDA_CHANNEL_STATS
-
 
 class VisdaTarget(ImageFolder, AbstractDataSet):
     def __init__(self, root=target_path, **kwargs):
-        root = os.path.join(root, 'validation')
+        root = root
         super().__init__(root, **kwargs)
 
     @staticmethod

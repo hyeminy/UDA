@@ -2,15 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99d69811-b191-46a6-8220-438350129dc8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/DTA/configs/resnet101_dta_vat.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DTA/configs/resnet50_dta_vat.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DTA/consistency_losses.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DTA/dropout.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DTA/loggers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DTA/losses.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DTA/metrics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DTA/models/resnet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DTA/ramps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DTA/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DTA/vat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DTA_1/DTA.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DTA_1/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DTA_1/augmentations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DTA_1/augmentations/misc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DTA_1/datasets/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DTA_1/datasets/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DTA_1/datasets/office31.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DTA_1/datasets/visda.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DTA_1/dta_options.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DTA_1/dta_train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DTA_1/misc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DTA_1/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DTA_1/models/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DTA_1/models/visda_architectures.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DTA_1/trainers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DTA_1/trainers/dta_trainer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deepclustering/Deepclustering.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deepclustering/clustering.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deepclustering/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deepclustering/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deepclustering/models/vgg16.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deepclustering/options.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deepclustering/util.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDD/mdd_options.py" beforeDir="false" afterPath="$PROJECT_DIR$/MDD/mdd_options.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransNorm/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/TransNorm/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransNorm/loss.py" beforeDir="false" afterPath="$PROJECT_DIR$/TransNorm/loss.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransNorm/network.py" beforeDir="false" afterPath="$PROJECT_DIR$/TransNorm/network.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransNorm/trans_norm.py" beforeDir="false" afterPath="$PROJECT_DIR$/TransNorm/trans_norm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransNorm/transnorm_options.py" beforeDir="false" afterPath="$PROJECT_DIR$/TransNorm/transnorm_options.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransNorm/transnorm_resnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/TransNorm/transnorm_resnet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransNorm/transnorm_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/TransNorm/transnorm_train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DTA/DTA.sh" beforeDir="false" afterPath="$PROJECT_DIR$/DTA/DTA.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DTA/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/DTA/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DTA/augmentations/misc.py" beforeDir="false" afterPath="$PROJECT_DIR$/DTA/augmentations/misc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DTA/datasets/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/DTA/datasets/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DTA/datasets/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/DTA/datasets/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DTA/datasets/office31.py" beforeDir="false" afterPath="$PROJECT_DIR$/DTA/datasets/office31.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DTA/datasets/visda.py" beforeDir="false" afterPath="$PROJECT_DIR$/DTA/datasets/visda.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DTA/dta_options.py" beforeDir="false" afterPath="$PROJECT_DIR$/DTA/dta_options.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DTA/dta_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/DTA/dta_train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DTA/misc.py" beforeDir="false" afterPath="$PROJECT_DIR$/DTA/misc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DTA/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/DTA/models/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DTA/models/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/DTA/models/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DTA/models/visda_architectures.py" beforeDir="false" afterPath="$PROJECT_DIR$/DTA/models/visda_architectures.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DTA/trainers/dta_trainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/DTA/trainers/dta_trainer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -245,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584572030526</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="3/19 TransNorm 수정">
+      <created>1585149662069</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1585149662069</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -259,21 +306,22 @@
     <MESSAGE value="3/18 cdan_train.py 추가" />
     <MESSAGE value="3/18 mdd_options 수정함" />
     <MESSAGE value="3/19 CDAN Readme 수정, DTA 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="3/19 CDAN Readme 수정, DTA 추가" />
+    <MESSAGE value="3/19 TransNorm 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="3/19 TransNorm 수정" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1186" y="328" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583243930597">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1186" y="328" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1583243930597" />
-    <state x="1020" y="117" key="CommitChangelistDialog2" timestamp="1584572029588">
+    <state x="1020" y="117" key="CommitChangelistDialog2" timestamp="1585149661031">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1020" y="117" key="CommitChangelistDialog2/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1584572029588" />
-    <state x="740" y="277" key="FileChooserDialogImpl" timestamp="1585149634141">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="1020" y="117" key="CommitChangelistDialog2/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585149661031" />
+    <state x="592" y="219" key="FileChooserDialogImpl" timestamp="1585472694916">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="592" y="219" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1584858611501" />
+    <state x="592" y="219" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1585472694916" />
     <state x="740" y="277" key="FileChooserDialogImpl/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585149634141" />
     <state x="1321" y="415" width="262" height="210" key="Github.ShareDialog" timestamp="1583241872707">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -304,18 +352,18 @@
     </state>
     <state x="559" y="114" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1579825255180" />
     <state x="926" y="164" key="SettingsEditor/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1583243139892" />
-    <state x="1032" y="255" key="Vcs.Push.Dialog.v2" timestamp="1584572039332">
+    <state x="1032" y="255" key="Vcs.Push.Dialog.v2" timestamp="1585149668278">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="255" key="Vcs.Push.Dialog.v2/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1584572039332" />
+    <state x="1032" y="255" key="Vcs.Push.Dialog.v2/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585149668278" />
     <state x="1245" y="187" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1581213623201">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1245" y="187" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1581213623201" />
-    <state x="563" y="219" width="735" height="999" key="dock-window-1" timestamp="1583846805533">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="-6" y="0" width="781" height="830" key="dock-window-1" timestamp="1585472939506">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="-6" y="0" width="781" height="830" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1581153058187" />
+    <state x="-6" y="0" width="781" height="830" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1585472939506" />
     <state x="563" y="219" width="735" height="999" key="dock-window-1/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1583846805533" />
     <state x="962" y="0" width="974" height="1047" key="dock-window-2" timestamp="1578793126069">
       <screen x="0" y="0" width="1920" height="1040" />
