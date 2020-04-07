@@ -1,56 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99d69811-b191-46a6-8220-438350129dc8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DTA/configs/resnet101_dta_vat.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTA/configs/resnet50_dta_vat.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTA/consistency_losses.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTA/dropout.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTA/loggers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTA/losses.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTA/metrics.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTA/models/resnet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTA/ramps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTA/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTA/vat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTA_1/DTA.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTA_1/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTA_1/augmentations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTA_1/augmentations/misc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTA_1/datasets/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTA_1/datasets/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTA_1/datasets/office31.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTA_1/datasets/visda.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTA_1/dta_options.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTA_1/dta_train.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTA_1/misc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTA_1/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTA_1/models/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTA_1/models/visda_architectures.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTA_1/trainers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTA_1/trainers/dta_trainer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deepclustering/Deepclustering.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deepclustering/clustering.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deepclustering/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deepclustering/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deepclustering/models/vgg16.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deepclustering/options.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deepclustering/util.py" afterDir="false" />
+    <list default="true" id="99d69811-b191-46a6-8220-438350129dc8" name="Default Changelist" comment="3/29 DTA 수정, 실험 해봐야함">
+      <change afterPath="$PROJECT_DIR$/Deepclustering/ReadMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deepclustering/configs/config1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deepclustering/models/resnet50.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DTA/DTA.sh" beforeDir="false" afterPath="$PROJECT_DIR$/DTA/DTA.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DTA/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/DTA/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DTA/augmentations/misc.py" beforeDir="false" afterPath="$PROJECT_DIR$/DTA/augmentations/misc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DTA/datasets/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/DTA/datasets/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DTA/datasets/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/DTA/datasets/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DTA/datasets/office31.py" beforeDir="false" afterPath="$PROJECT_DIR$/DTA/datasets/office31.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DTA/datasets/visda.py" beforeDir="false" afterPath="$PROJECT_DIR$/DTA/datasets/visda.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DTA/dta_options.py" beforeDir="false" afterPath="$PROJECT_DIR$/DTA/dta_options.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DTA/dta_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/DTA/dta_train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DTA/misc.py" beforeDir="false" afterPath="$PROJECT_DIR$/DTA/misc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DTA/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/DTA/models/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DTA/models/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/DTA/models/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DTA/models/visda_architectures.py" beforeDir="false" afterPath="$PROJECT_DIR$/DTA/models/visda_architectures.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DTA/trainers/dta_trainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/DTA/trainers/dta_trainer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deepclustering/Deepclustering.sh" beforeDir="false" afterPath="$PROJECT_DIR$/Deepclustering/Deepclustering.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deepclustering/clustering.py" beforeDir="false" afterPath="$PROJECT_DIR$/Deepclustering/clustering.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deepclustering/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Deepclustering/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deepclustering/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Deepclustering/models/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deepclustering/models/vgg16.py" beforeDir="false" afterPath="$PROJECT_DIR$/Deepclustering/models/vgg16.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deepclustering/options.py" beforeDir="false" afterPath="$PROJECT_DIR$/Deepclustering/options.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deepclustering/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/Deepclustering/util.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,13 +52,14 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\9live\hm_code\pytorch_code\UDA\Deepclustering\configs" />
+      <recent name="C:\Users\9live\hm_code\pytorch_code\UDA" />
+      <recent name="C:\Users\9live\hm_code\pytorch_code\UDA\MMT\mmt\utils" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\9live\hm_code\pytorch_code\UDA\MMT\mmt" />
       <recent name="C:\Users\9live\hm_code\pytorch_code\UDA\TransNorm" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\9live\hm_code\pytorch_code\UDA" />
-      <recent name="C:\Users\9live\hm_code\pytorch_code\UDA\MMT\mmt\utils" />
     </key>
   </component>
   <component name="RunManager" selected="Python.test">
@@ -292,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585149662069</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="3/29 DTA 수정, 실험 해봐야함">
+      <created>1585478671475</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1585478671475</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -307,22 +277,24 @@
     <MESSAGE value="3/18 mdd_options 수정함" />
     <MESSAGE value="3/19 CDAN Readme 수정, DTA 추가" />
     <MESSAGE value="3/19 TransNorm 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="3/19 TransNorm 수정" />
+    <MESSAGE value="3/29 DTA 수정, 실험 해봐야함" />
+    <option name="LAST_COMMIT_MESSAGE" value="3/29 DTA 수정, 실험 해봐야함" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1186" y="328" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583243930597">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1186" y="328" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1583243930597" />
-    <state x="1020" y="117" key="CommitChangelistDialog2" timestamp="1585149661031">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1020" y="117" key="CommitChangelistDialog2/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585149661031" />
-    <state x="592" y="219" key="FileChooserDialogImpl" timestamp="1585472694916">
+    <state x="816" y="16" key="CommitChangelistDialog2" timestamp="1585478679384">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="816" y="16" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585478679384" />
+    <state x="1020" y="117" key="CommitChangelistDialog2/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585149661031" />
+    <state x="740" y="277" key="FileChooserDialogImpl" timestamp="1585783369904">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
     <state x="592" y="219" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1585472694916" />
-    <state x="740" y="277" key="FileChooserDialogImpl/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585149634141" />
+    <state x="740" y="277" key="FileChooserDialogImpl/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585783369904" />
     <state x="1321" y="415" width="262" height="210" key="Github.ShareDialog" timestamp="1583241872707">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -352,31 +324,32 @@
     </state>
     <state x="559" y="114" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1579825255180" />
     <state x="926" y="164" key="SettingsEditor/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1583243139892" />
-    <state x="1032" y="255" key="Vcs.Push.Dialog.v2" timestamp="1585149668278">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="722" y="202" key="Vcs.Push.Dialog.v2" timestamp="1585478696845">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="722" y="202" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1585478696845" />
     <state x="1032" y="255" key="Vcs.Push.Dialog.v2/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585149668278" />
     <state x="1245" y="187" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1581213623201">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1245" y="187" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1581213623201" />
-    <state x="-6" y="0" width="781" height="830" key="dock-window-1" timestamp="1585472939506">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="-6" y="0" width="781" height="830" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1585472939506" />
-    <state x="563" y="219" width="735" height="999" key="dock-window-1/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1583846805533" />
-    <state x="962" y="0" width="974" height="1047" key="dock-window-2" timestamp="1578793126069">
+    <state x="647" y="0" width="924" height="974" key="dock-window-1" timestamp="1585780287068">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="962" y="0" width="974" height="1047" key="dock-window-2/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1578793126069" />
+    <state x="-6" y="0" width="781" height="830" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1585472939506" />
+    <state x="647" y="0" width="924" height="974" key="dock-window-1/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585780287068" />
+    <state x="-7" y="0" width="974" height="1047" key="dock-window-2" timestamp="1585694617050">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-7" y="0" width="974" height="1047" key="dock-window-2/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585694617050" />
     <state x="664" y="160" width="592" height="720" key="find.popup" timestamp="1578583949254">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="664" y="160" width="592" height="720" key="find.popup/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1578583949254" />
-    <state x="1019" y="183" width="840" height="856" key="search.everywhere.popup" timestamp="1582064853412">
+    <state x="1019" y="183" width="840" height="856" key="search.everywhere.popup" timestamp="1585866778221">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="815" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1579941784685" />
-    <state x="1019" y="183" width="840" height="856" key="search.everywhere.popup/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1582064853412" />
+    <state x="1019" y="183" width="840" height="856" key="search.everywhere.popup/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585866778221" />
   </component>
 </project>

@@ -124,3 +124,5 @@ class Logger(object):
         self.data.append(train_point)
         with open(os.path.join(self.path), 'wb') as fp:
             pickle.dump(self.data, fp, -1)
+
+    # 이 함수를 통해 log를 저장하는 것 같다

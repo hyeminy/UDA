@@ -92,7 +92,7 @@ def preprocess_features(npdata, pca=256):
 
     # L2 normalization
     row_sums = np.linalg.norm(npdata, axis=1)
-    npdata = npdata / row_sums[:, np.newaxis]
+    npdata = npdata / row_sums[:, np.newaxis] # 각 크기로 나눠준다
 
     return npdata
 
@@ -147,7 +147,7 @@ def cluster_assign(images_lists, dataset):
     return ReassignedDataset(image_indexes, pseudolabels, dataset, t)
 
 
-def run_kmeans(x, nmb_clusters, verbose=False):
+def run_kmeans(x, nmb_clusters, verbose=False): # 이 부분 print하면서 k-means 복습하기
     """Runs kmeans on 1 GPU.
     Args:
         x: data
@@ -155,7 +155,7 @@ def run_kmeans(x, nmb_clusters, verbose=False):
     Returns:
         list: ids of data in each cluster
     """
-    n_data, d = x.shape
+    n_data, d = x.shape # d는? 무슨 값
 
     # faiss implementation of k-means
     clus = faiss.Clustering(d, nmb_clusters)
@@ -205,10 +205,10 @@ class Kmeans(object):
         end = time.time()
 
         # PCA-reducing, whitening and L2-normalization
-        xb = preprocess_features(data)
+        xb = preprocess_features(data) #data는 전체 features
 
         # cluster the data
-        I, loss = run_kmeans(xb, self.k, verbose)
+        I, loss = run_kmeans(xb, self.k, verbose) # 256 dimension의 각 크기로 나눠진 것 :xb가 입력됨
         self.images_lists = [[] for i in range(self.k)]
         for i in range(len(data)):
             self.images_lists[I[i]].append(i)

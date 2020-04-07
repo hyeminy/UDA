@@ -1,0 +1,19 @@
+{
+  "data" : "C:\\Users\\9live\\hm_code\\open_data\\office31\\amazon\\images",
+  "arch" : "vgg16",
+  "sobel" : true,
+  "clustering" : "Kmeans",
+  "numb_clustering" : 31,
+  "lr" : 0.05,
+  "wd" : -5,
+  "reassign" : 1.0,
+  "workers" : 4,
+  "epochs" : 200,
+  "start_epoch" : 0,
+  "batch" : 256,
+  "momentum" : 0.9,
+  "checkpoints" : 25000,
+  "seed" : 31,
+  "exp_output" : "C:\\Users\\9live\\hm_code\\UDA\\Deepclustering\\output",
+  "verbose" : true
+}
